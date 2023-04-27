@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+body{
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.navbar *{
+    color: white;
+}
+
+header{
+    height: 1000px;
+    margin-bottom: 15px;
+    margin: auto;
+}
+.bg-lightblue{
+    background-color: rgb(67, 124, 194);
+}
+.navbar{
+    height: 80px;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar1{
+    padding-left: 0px;
+    flex-basis: 15%;
+    
+   
+}
+.bar2{
+    padding-left: 20px;
+    text-align: center;
+    flex-basis: 70%;
+}
+.bar3{
+        padding: 5px;
+    text-align: right;
+    flex-basis: 15%;
+}
+body{
+    background-color: white;
+}
+
+
+.container-flex1{
+    max-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.left-column{
+flex-basis: 66% ;
+background-color: rgb(46, 76, 228);
+min-height: 300px;
+
+}
+.right-column{
+    flex-basis: 34% ;
+    background-color: rgb(227, 83, 218);
+    min-height: 300px;
+}
+.jumbo{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+}
+.pinksquare{
+    background-color: pink;
+    width: 620px;
+    height: 300px;
+    
+    
+    
+}
+.flex-grey{
+    height: 500px;
+    background-color: rgb(77, 80, 79);
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.bg-grey{
+    background-color: grey;
+
+
+}
+.bg-blue{
+    background-color: blue;
+}
+.greensquare{
+    background-color: green;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 600px;
+
+}
+.wrapper{
+    padding: 20px 0;
+}
+.bg-darkgrey{
+    background-color: rgb(30, 38, 38);
+}
+.columns{
+    background-color: rgb(99, 226, 246);
+    flex-basis: 16.5%;
+    min-height: 30px;
+    border: dashed rgb(248, 246, 246);
+}
+.aqualine{
+    background-color: rgb(71, 206, 109);
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo{
+        border: dashed  rgb(14, 13, 13);
+        background-color: pink;
+        padding: 5px;
+    }
+
+    .bottone{
+        border: dashed rgb(14, 13, 13);
+        background-color: pink;
+        padding: 5px;
+    }
