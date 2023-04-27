@@ -304,7 +304,8 @@ h1 {
 li{
     list-style-type: none;
     margin-top: 8px;
-}
-.white{
     color: white;
+}
+.purple{
+    color: rgb(125, 85, 218);
 }
