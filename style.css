@@ -199,6 +199,7 @@ h3 {
 }
 .bg-white {
   background-color: white;
+  margin-bottom: 20px;
 }
 .greensquare {
   margin-left: 300px;
@@ -257,7 +258,6 @@ h1 {
 .columns {
   flex-basis: 16.5%;
   min-height: 30px;
-  border: dashed rgb(248, 246, 246);
   display: flex;
   color: rgb(70, 97, 220);
   font-size: large;
